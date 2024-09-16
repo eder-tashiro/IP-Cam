@@ -5,7 +5,7 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 
 # Inicializar a captura de vídeo com a URL do vídeo do celular
 
-video = cv2.VideoCapture("http://10.46.154.28:8080/video")
+video = cv2.VideoCapture("")
 
 while True:
     # Ler um frame do vídeo
